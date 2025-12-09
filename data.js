@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-img_20251208_114413_114",
-      "name": "IMG_20251208_114413_114",
+      "id": "0-",
+      "name": "廠區大門",
       "levels": [
         {
           "tileSize": 256,
@@ -37,14 +37,14 @@ var APP_DATA = {
           "yaw": -3.094509483464712,
           "pitch": 0.014237313755739223,
           "rotation": 0,
-          "target": "1-img_20251208_114418_949"
+          "target": "1-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-img_20251208_114418_949",
-      "name": "IMG_20251208_114418_949",
+      "id": "1-",
+      "name": "警衛室",
       "levels": [
         {
           "tileSize": 256,
@@ -79,7 +79,7 @@ var APP_DATA = {
           "yaw": 1.5729854554173075,
           "pitch": 0.024048926297872697,
           "rotation": 0,
-          "target": "0-img_20251208_114413_114"
+          "target": "0-"
         },
         {
           "yaw": -1.4257031050550495,
@@ -133,10 +133,17 @@ var APP_DATA = {
           "yaw": 0.3118272016002308,
           "pitch": 0.12129577456519414,
           "rotation": 0,
-          "target": "1-img_20251208_114418_949"
+          "target": "1-"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.5788218224152004,
+          "pitch": 0.03754210094315269,
+          "title": "警衛室",
+          "text": "<br>"
+        }
+      ]
     },
     {
       "id": "3-img_20251208_114424_003",
@@ -281,7 +288,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
